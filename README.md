@@ -1,7 +1,9 @@
+> **Note:** This project has been moved to my [Custom-Security-Tools](https://github.com/riwandi-tech/Custom-Security-Tools/tree/main/port-scanner) monorepo for better management.
+
+
 # ⚡ Async Python Port Scanner
 
-A high-speed, asynchronous TCP port scanner built with Python. Designed for penetration testers and network
-administrators who need rapid reconnaissance with intelligent banner grabbing capabilities.
+A high-speed, concurrent TCP port scanner built with Python. Designed for penetration testers and network administrators who need rapid reconnaissance with intelligent banner grabbing capabilities.
 
 ## 🚀 Features
 
