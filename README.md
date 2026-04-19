@@ -1,6 +1,7 @@
 
-# **Note:** This project has been moved to my [Custom-Security-Tools](https://github.com/riwandi-tech/Custom-Security-Tools/tree/main/port-scanner) monorepo for better management.
+# **Note:** This project has been moved to my [Custom-Security-Tools](https://github.com/riwandi-tech/Custom-Security-Tools/tree/main/port-scanner) for better management.
 
+---
 
 # ⚡ Async Python Port Scanner
 
@@ -8,30 +9,37 @@ A high-speed, concurrent TCP port scanner built with Python. Designed for penetr
 
 ## 🚀 Features
 
-* **High-Speed Execution:** Utilizes `concurrent.futures.ThreadPoolExecutor` to scan hundreds of ports concurrently.
-* **Smart Banner Grabbing:**
-    * **Phase 1 (Passive):** Employs Null Probes to safely identify polite services (SSH, FTP) without triggering
-      alarms.
-    * **Phase 2 (Active):** Deploys protocol-specific payloads to elicit responses from passive services (e.g., HTTP Web
-      Servers).
-* **Multi-Target Support:** Scan multiple IP addresses or domains in a single command.
-* **Output Routing:** Save your reconnaissance data cleanly into a text report.
+- **High-Speed Execution:** Utilizes `concurrent.futures.ThreadPoolExecutor` to scan hundreds of ports concurrently.
+- **Smart Banner Grabbing:**
+  - **Phase 1 (Passive):** Employs Null Probes to safely identify polite services (SSH, FTP) without triggering
+    alarms.
+  - **Phase 2 (Active):** Deploys protocol-specific payloads to elicit responses from passive services (e.g., HTTP Web
+    Servers).
+- **Multi-Target Support:** Scan multiple IP addresses or domains in a single command.
+- **Output Routing:** Save your reconnaissance data cleanly into a text report.
 
 ## 🛠️ Installation
 
 1. **Clone the repository:**
+
    ```bash
-   git clone https://github.com/riwandi-tech/port-scanner.git
-   cd port-scanner
+   git clone https://github.com/riwandi-tech/Custom-Security-Tools.git
    ```
 
-2. **Create a virtual environment (Recommended):**
+2. **Navigate to the tool's directory:**
+
+   ```bash
+   cd Custom-Security-Tools/port-scanner
+   ```
+
+3. **Create a virtual environment (Recommended):**
+
    ```bash
    python3 -m venv .venv
    source .venv/bin/activate
    ```
 
-3. **Install the required dependencies:**
+4. **Install the required dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
